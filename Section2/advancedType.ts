@@ -54,3 +54,7 @@ zero.toFixed(1);
 let bit: 8 | 16 | 32 | 64;
 bit = 8;
 // bit 12 // NG
+
+let truth: true;
+truth = true;
+// truth = false; // NG
