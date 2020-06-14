@@ -26,3 +26,10 @@ console.log(x[0].substr(1)); // OK
 let whatEver: any = 0;
 whatEver = "something";
 whatEver = false;
+
+// const certainlyNumbers: number[] = ["0"]; // Error
+const maybeNumbers: any[] = ["0"]; // OK
+const probablyNumbers: unknown[] = ["0"]; // OK
+
+maybeNumbers[0].toFixed(1); // RunTime Error
+// probablyNumbers[0].toFixed(1); // NG
