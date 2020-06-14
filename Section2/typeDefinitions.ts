@@ -40,3 +40,6 @@ function logger(message: string): void {
 
 let unusable: void = undefined;
 // unusable = "aa"; // NG
+
+let u: undefined = undefined;
+let n: null = null;
