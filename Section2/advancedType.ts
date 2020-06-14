@@ -45,3 +45,12 @@ myName.toLowerCase();
 
 let users: "Taro" | "Jiro" | "Hanako";
 users = "Hanako";
+
+let zero: 0;
+zero = 0;
+// zero = 1; // NG
+zero.toFixed(1);
+
+let bit: 8 | 16 | 32 | 64;
+bit = 8;
+// bit 12 // NG
