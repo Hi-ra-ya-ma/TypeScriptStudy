@@ -51,3 +51,11 @@ function error(message: string): never {
 function infiniteLoop(): never {
   while (true) {}
 }
+
+let objectBrace: {};
+let objectType: object;
+
+objectBrace = true;
+objectBrace = 0;
+// objectType = false; // NG
+// objectType = 1; // NG
