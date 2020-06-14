@@ -19,3 +19,21 @@ function returnNever(): never {
 }
 let unexistenceType: string & number & boolean = returnNever();
 // let problematicNumber: string & number = "0"; // NG
+
+let val: boolean | number | string; // 通常の定義
+val = false;
+val = 1;
+val = "2";
+
+let numberOrStrings: (number | string)[]; // 要素にunion typeを指定した配列の定義
+numberOrStrings = [0, "1"];
+// numberOrStrings = [0, "1", false]; // NG
+
+let nullableString: string | null;
+nullableString = null;
+nullableString = "not Null";
+
+let nullableStrings: (string | null)[] = [];
+nullableStrings.push("1");
+nullableStrings.push(null);
+// nullableStrings.push(false); // NG
