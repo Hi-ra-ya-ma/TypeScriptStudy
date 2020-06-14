@@ -22,3 +22,7 @@ console.log(x[0].substr(1)); // OK
 // x[3] = "world"; // NG
 // console.log(x[5].toString()); // NG
 // x[0] = true; // NG
+
+let whatEver: any = 0;
+whatEver = "something";
+whatEver = false;
