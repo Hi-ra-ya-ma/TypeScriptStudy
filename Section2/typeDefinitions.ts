@@ -33,3 +33,10 @@ const probablyNumbers: unknown[] = ["0"]; // OK
 
 maybeNumbers[0].toFixed(1); // RunTime Error
 // probablyNumbers[0].toFixed(1); // NG
+
+function logger(message: string): void {
+  console.log(message);
+}
+
+let unusable: void = undefined;
+// unusable = "aa"; // NG
