@@ -6,7 +6,7 @@ let binary: number = 0b0000; // 2進数（ES6で導入）
 let octal: number = 0o123; // 8進数（ES6で導入）
 
 let color: string = "white";
-color = 'black';
+color = "black";
 let myColor: string = `my color is ${color}`; // テンプレート構文（ES6で導入）
 
 let list1: number[] = [1, 2, 3];
