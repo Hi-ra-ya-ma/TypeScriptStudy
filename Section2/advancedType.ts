@@ -37,3 +37,11 @@ let nullableStrings: (string | null)[] = [];
 nullableStrings.push("1");
 nullableStrings.push(null);
 // nullableStrings.push(false); // NG
+
+let myName: "Taro";
+myName = "Taro";
+// myName = "Jiro"; // NG
+myName.toLowerCase();
+
+let users: "Taro" | "Jiro" | "Hanako";
+users = "Hanako";
