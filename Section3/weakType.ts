@@ -22,3 +22,17 @@ registerUser(maybeUser);
 
 registerUser({});
 // registerUser(); // NG
+
+registerUser({
+  age: 26,
+  name: "Taro",
+  // gender: "male", // NG
+});
+
+registerUser({
+  ...{
+    age: 26,
+    name: "Taro",
+    gender: "male", // OK
+  },
+});
