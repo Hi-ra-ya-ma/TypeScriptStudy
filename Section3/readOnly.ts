@@ -23,3 +23,7 @@ const state2: Readonly<State2> = {
 
 // state2.name = "Hanako"; // NG
 // state2.id = 2; // NG
+
+const frozenState = Object.freeze(state);
+// frozenState.name = "Hanako"; // NG
+// frozenState.id = 2; // NG
